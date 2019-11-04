@@ -3,3 +3,6 @@
     grid-template-rows: 1fr 7fr 1fr;
     height: 100vh;
 }
+.main-outlet {
+display: none;
+}

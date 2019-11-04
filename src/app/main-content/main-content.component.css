@@ -20,3 +20,6 @@
 .add-button {
     font-size: bold;
 }
+.main-outlet {
+    display: none;
+}

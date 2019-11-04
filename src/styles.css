@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
 * {
     margin: 0px;
     padding: 0px;
@@ -15,5 +15,16 @@ body {
 
 .align-center {
     margin: 15px;
-    border: 1px dashed #CCC;
+    /* border: 1px dashed #CCC; */
 }
+.row-one,
+.row-two,
+.row-three {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    height: 100%;
+    width: 100%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

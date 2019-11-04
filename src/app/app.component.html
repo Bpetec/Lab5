@@ -10,7 +10,10 @@
     <div class="app-container-grid">
 
         <app-main-header></app-main-header>
+        <!-- app-main-content is responsible for the table, commenting out removes table -->
         <app-main-content></app-main-content>
+        <router-outlet class="main-outlet"></router-outlet>
+            <!-- router outlet is a container angular will inject components in/swap them -->
         <app-main-footer></app-main-footer>
  
 </div>
